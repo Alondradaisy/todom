@@ -33,7 +33,7 @@ function removeToDo (todoObject) {
 let listItem = document.createElement('li')   
   // Set its text (preferably using `.innerText`) to be our given object's text field. Check out what a todo object looks like in `todos.js` if you need to!
 
-listItem.innerText = 'Christmas shopping';
+listItem.innerText = '';
 
 
   // Give our new li a `todo-item` class using `classList`. This will allow us to style it later if we want.
@@ -44,19 +44,20 @@ listItem.classList.add('.todo-item');
 
   // Give our new li an id that is the object's id. This is so that we have a matching relationship between todo _html elements_ and their corresponding _array objects_. Now we'll be able to find the corresponding array object when they click to toggle the completeness on a DOM element.
 let listItem = document.querySelector('li');
-listItem.setAttribute = 'id:';
+listItem.setAttribute = 'id', 0;
   
   // Give the li a `complete` class if the todo object indicates it was complete already. (Again, check the `todos.js` to see what the objects look like!)
 
 let listItem = document.querySelector('li')
-listItem.setAttribute = '.complete' 
+listItem.setAttribute = 
 
 
   // Query the todo list <ol> and store it in a variable
 const orderedList = document.querySelector('ol');
 
   // Append the li we made to the ol as the last child using `.appendChild`. If this isn't working for you, check what is being appended to what!
-
+let listItem = document.querySelector('li');
+listItem.appendChild
 
 
 
