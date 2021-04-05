@@ -57,7 +57,7 @@ const orderedList = document.querySelector('ol');
 
   // Append the li we made to the ol as the last child using `.appendChild`. If this isn't working for you, check what is being appended to what!
 let listItem = document.querySelector('li');
-listItem.appendChild
+listItem.appendChild('ol >li');
 
 
 
