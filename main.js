@@ -27,7 +27,7 @@ function removeToDo (index) {
 }
 
 // A function that takes in a todo object and displays it on the DOM. This is a pretty big function, so we'll walk through the different parts of it.
-function printTodo(list) {
+function printTodo(todos) {
 
   // Use `document.createElement` to make an <li>.
 
@@ -59,12 +59,13 @@ orderedList.appendChild(listItem);
 
 // A function that print ALL todos. It should loop through our todos array and call the above print-one-todo function on each one.
 }
-function printAllTodos(program) {
-  for(program of todos) {
-    console.log(Todos);
-    printTodo(program);
+function printAllTodos(todo) {
+  for(const todo of todos) {
+    console.log(todos);
+    printTodo(todo);
   }
 }
+
 
 // Now here in the global code, call the above function, so our todos array gets printed out on page load (which is when global code is run). This is the only time we're calling a function ourselves; the rest is event listeners and helper functions that run when the user interacts with the DOM!
 
