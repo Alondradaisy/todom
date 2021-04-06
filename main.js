@@ -55,16 +55,16 @@ if (todo.complete === true) {
 const orderedList = document.querySelector('ol');
 
   // Append the li we made to the ol as the last child using `.appendChild`. If this isn't working for you, check what is being appended to what!
-orderedList.appendChild('li');
+orderedList.appendChild('listItem');
 
 
 // A function that print ALL todos. It should loop through our todos array and call the above print-one-todo function on each one.
-
+}
 function printAllTodos() {
   for(const todos of todos) {
     printTodo(todo);
   }
-}
+
 
 // Now here in the global code, call the above function, so our todos array gets printed out on page load (which is when global code is run). This is the only time we're calling a function ourselves; the rest is event listeners and helper functions that run when the user interacts with the DOM!
 
