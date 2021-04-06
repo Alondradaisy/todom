@@ -5,3 +5,9 @@ h1, label {
   margin: 20px;
   font-weight: bold
 }
+.todo-item {
+  color: red;
+}
+ol {
+  color: red;
+}
