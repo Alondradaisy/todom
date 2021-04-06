@@ -109,9 +109,8 @@ addButton.addEventListener('click', function() {
   id++; // this refers to the id 6 variable we set above, here we're incrementing off that
 
   getTodoName(todoObject);
-
-  refreshDom(); //we've made changes, now refresh
 });
+
 
 /* 
  Run over to the HTML and add a button for CLEAR TODOS or REMOVE TODOS or some such, giving it a class or id of your choice. Now let's wire up that button, giving it a click event listener that clears all todos from the DOM (we have a function for that!) and removes all todo objects from the todos array as well.
